@@ -1,1 +1,45 @@
 # clase1
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Primer ejemplo</title>
+    <style>
+        .parent { display: grid; grid-template-columns: repeat(2, 1fr); }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div> <!-- grafico1-->
+            <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+                <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+                <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#E6B495" stroke-width="3"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#95C7E6" stroke-width="3" stroke-dasharray="89.5 10.5" stroke-dashoffset="0"></circle>
+            </svg>
+        </div>
+        <div> <!-- grafico2-->
+            <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+                <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+                <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#E6B495" stroke-width="3"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#95C7E6" stroke-width="3" stroke-dasharray="51.7 48.3" stroke-dashoffset="0"></circle>
+            </svg>
+        </div>
+        <div> <!-- grafico3-->
+            <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+                <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+                <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#E6B495" stroke-width="3"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#95C7E6" stroke-width="3" stroke-dasharray="50.7 49.3" stroke-dashoffset="0"></circle>
+            </svg>
+        </div>
+        <div> <!-- grafico4-->
+            <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+                <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+                <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#E6B495" stroke-width="3"></circle>
+                <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#95C7E6" stroke-width="3" stroke-dasharray="49 51" stroke-dashoffset="0"></circle>
+            </svg>
+        </div>
+    </div>
+    </body>
+</html>
